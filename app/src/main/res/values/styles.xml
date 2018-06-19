@@ -1,0 +1,16 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="mytheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Cust" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">#e22f37</item>
+        <item name="android:textColorPrimary">#263238</item>
+        <item name="android:background">#fff</item>
+    </style>
+
+</resources>

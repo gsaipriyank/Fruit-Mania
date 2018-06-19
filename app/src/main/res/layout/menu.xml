@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.saipriyank.fruitmania.Menu"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="108dp"
+            android:src="@drawable/head"/>
+
+
+        <Button
+            android:id="@+id/btStart"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:backgroundTint="#263238"
+            android:text="Start Game"
+            android:textColor="#ffca29"
+            android:layout_margin="10dp"
+            android:background="@drawable/shape"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/btRules"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:backgroundTint="#263238"
+            android:text="Rules"
+            android:textColor="#ffca29"
+            android:layout_margin="10dp"
+            android:background="@drawable/shape"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/btExit"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:backgroundTint="#263238"
+            android:text="Exit"
+            android:textColor="#ffca29"
+            android:layout_margin="10dp"
+            android:background="@drawable/shape"
+            android:textSize="20dp" />
+
+
+    </LinearLayout>
+</ScrollView>
